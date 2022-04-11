@@ -16,4 +16,4 @@ steps:
 - pwsh: |
         Invoke-WebRequest 'https://raw.githubusercontent.com/JoonghyunCho/assets/main/test.ps1' -OutFile 'test.ps1'
         .\test.ps1
-      displayName: 'Install Tizen'
+  displayName: 'Install Tizen'
